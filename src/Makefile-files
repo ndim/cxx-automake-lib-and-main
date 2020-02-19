@@ -1,0 +1,6 @@
+# -*- Makefile -*-
+
+bin_PROGRAMS            += helloworld
+helloworld_CPPFLAGS      = -I$(top_srcdir)/include
+helloworld_SOURCES       = %reldir%/main.cpp
+helloworld_LDADD         = libhelloworld.la

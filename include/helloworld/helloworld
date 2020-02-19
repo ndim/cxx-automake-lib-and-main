@@ -1,0 +1,11 @@
+/* -*- c++ -*- */
+
+#ifndef HELLOWORLD_HEADER
+#define HELLOWORLD_HEADER
+
+class helloworld {
+public:
+  void getvalue();
+};
+
+#endif /* !defined(HELLOWORLD_HEADER) */

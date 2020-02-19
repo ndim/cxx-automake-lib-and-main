@@ -1,0 +1,5 @@
+# -*- Makefile -*-
+
+lib_LTLIBRARIES           += libhelloworld.la
+libhelloworld_la_CPPFLAGS  = -I$(top_srcdir)/include
+libhelloworld_la_SOURCES   = %reldir%/helloworld.cpp

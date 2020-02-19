@@ -1,0 +1,28 @@
+# Generated during autoreconf run
+Makefile.in
+/auto-aux/
+/auto-m4/
+/autom4te.cache/
+/configure
+/aclocal.m4
+
+/helloworld-config.h.in
+
+# Generated during in-tree configure run
+/config.log
+/config.status
+.deps/
+/libtool
+Makefile
+/stamp-h1
+
+/helloworld-config.h
+
+# Generated during in-tree make run
+.libs/
+.dirstamp
+*.lo
+*.la
+*.o
+
+/helloworld
