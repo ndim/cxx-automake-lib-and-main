@@ -5,6 +5,7 @@ EXTRA_DIST =
 bin_PROGRAMS =
 lib_LTLIBRARIES =
 
+EXTRA_DIST += LICENSE
 EXTRA_DIST += README.md
 
 include include/Makefile-files
